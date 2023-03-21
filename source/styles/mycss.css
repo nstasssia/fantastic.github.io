@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap);
+
+body {
+    font-family: 'Josefin Sans', serif;
+    background: linear-gradient(186deg, #370088 0%, #C1007B 100%);
+}
+p {
+    color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(50, 153, 204);
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(240, 228, 228, 0.1)
+}
+
+.sidebar {
+    color: aliceblue;
+    background: linear-gradient(366deg, #370088 0%, #C1007B 100%);
+    font-size: 18.3px;
+    border-style: solid;
+}
+
+.card {
+    background: linear-gradient(270deg, #370088 0%, #C1007B 100%);
+    color: aliceblue;
+}
+
+.card a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.slide-text,
+.footer-text {
+    color: aliceblue;
+    margin: auto auto;
+}
+footer {
+    background: linear-gradient(180deg, #370088 0%, #C1007B 100%);
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call {
+    animation: myAnim 2s ease 0s infinite normal none;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 0;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
